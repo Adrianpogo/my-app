@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
-button{
-  background-color: blueviolet;
+
+.disponible {
+  transform: scale(1.2);
 }
+
+.noDisponible {
+  transform: scale(1);
+}
+
