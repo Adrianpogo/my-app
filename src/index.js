@@ -11,6 +11,9 @@ import { BotonConProp2 } from './customComponents/BotonConProp2';
 import { Formulario2 } from './customComponents/Formulario2';
 import { Inputs } from './customComponents/Inputs';
 import { TiendaProductos } from './customComponents/TiendaProductos';
+import { BotonConContador } from './customComponents/BotonConContador';
+import { ImagenCambiante } from './customComponents/ImagenCambiante';
+import { PadreConectado } from './customComponents/PadreConectado';
 
 var click1 = () =>{
   console.log("fn1")
@@ -41,6 +44,7 @@ productos.push(
   { id: 6, name: 'Backpack', price: 39.99, inStock: false, category: 'Accessories', rating: 4.1, imagen:'https://thumb.pccomponentes.com/w-530-530/articles/1073/10736132/1117-targus-tbb639gl-mochila-gaming-strike-ii-173-negra.jpg' },   
   { id: 7, name: 'Coffee Maker', price: 89.99, inStock: true, category: 'Appliances', rating: 4.6, imagen:'https://thumb.pccomponentes.com/w-530-530/articles/75/754809/144-philips-lor-barista-sublime-cafetera-de-capsulas-satin-blanca.jpg' } 
 );
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -76,9 +80,29 @@ root.render(
     <BotonConProp2 textoMostrar={"Info"}></BotonConProp2>
 
     <Formulario2 inputs={inputs}></Formulario2>
-    */}
-
     <TiendaProductos productos={productos}></TiendaProductos>
+    */
+    
+    /*---------------------------------------------- */
+    /*CLASE3*/
+    /*---------------------------------------------- */
+    /*
+    
+    <BotonConContador></BotonConContador> 
+
+    <ImagenCambiante 
+      src1={"https://thumb.pccomponentes.com/w-530-530/articles/75/754809/144-philips-lor-barista-sublime-cafetera-de-capsulas-satin-blanca.jpg"} 
+      src2={"https://thumb.pccomponentes.com/w-530-530/articles/1073/10736132/1117-targus-tbb639gl-mochila-gaming-strike-ii-173-negra.jpg"} 
+    />
+
+    <PadreConectado></PadreConectado>
+
+    */
+    }
+    
+    
+    
+    
 
 
   </React.StrictMode>
