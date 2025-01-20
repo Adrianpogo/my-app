@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import { Boton } from './customComponents/Boton'; 
 import { BotonConTitulo } from './customComponents/BotonConTitulo';
 import { Titulo } from './customComponents/Titulo';
@@ -14,6 +13,8 @@ import { TiendaProductos } from './customComponents/TiendaProductos';
 import { BotonConContador } from './customComponents/BotonConContador';
 import { ImagenCambiante } from './customComponents/ImagenCambiante';
 import { PadreConectado } from './customComponents/PadreConectado';
+//import { App } from './customComponents/proyecto1PokeApi/App';
+import { App } from './customComponents/proyecto2PokeApi/App';
 
 var click1 = () =>{
   console.log("fn1")
@@ -100,7 +101,7 @@ root.render(
     */
     }
     
-    
+    <App></App>
     
     
 
