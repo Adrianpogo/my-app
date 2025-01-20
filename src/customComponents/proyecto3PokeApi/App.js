@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Tarjeta } from "./Tarjeta";
 import axios from "axios";
-import LikeButton from "./likeButton";
+
 
 export const App = () => {
   var [infoPokemon, setInfoPokemon] = useState(null);
@@ -35,7 +35,6 @@ export const App = () => {
 
   return (
     <div className="container mt-4">
-      <LikeButton />
       <h1 className="text-center text-primary mb-4">PokeApi</h1>
       <div className="d-flex justify-content-center mb-3">
         <label className="me-2">Nombre del Pokémon:</label>
