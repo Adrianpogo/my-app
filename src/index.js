@@ -14,7 +14,8 @@ import { BotonConContador } from './customComponents/BotonConContador';
 import { ImagenCambiante } from './customComponents/ImagenCambiante';
 import { PadreConectado } from './customComponents/PadreConectado';
 //import { App } from './customComponents/proyecto1PokeApi/App';
-import { App } from './customComponents/proyecto2PokeApi/App';
+//import { App } from './customComponents/proyecto2PokeApi/App';
+import { App } from './customComponents/proyecto3PokeApi/App';
 
 var click1 = () =>{
   console.log("fn1")
@@ -98,11 +99,18 @@ root.render(
 
     <PadreConectado></PadreConectado>
 
+    /*---------------------------------------------- */
+    /*CLASE4*/
+    /*---------------------------------------------- */
+    /*
+
+    <App></App>
+
     */
     }
     
-    <App></App>
     
+    <App></App>
     
 
 
