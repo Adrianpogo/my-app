@@ -1,21 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { Boton } from './customComponents/Boton'; 
-import { BotonConTitulo } from './customComponents/BotonConTitulo';
-import { Titulo } from './customComponents/Titulo';
-import { Formulario } from './customComponents/Formulario';
-import { BotonConProp } from './customComponents/BotonConProp';
-import { BotonConProp2 } from './customComponents/BotonConProp2';
-import { Formulario2 } from './customComponents/Formulario2';
-import { Inputs } from './customComponents/Inputs';
-import { TiendaProductos } from './customComponents/TiendaProductos';
-import { BotonConContador } from './customComponents/BotonConContador';
-import { ImagenCambiante } from './customComponents/ImagenCambiante';
-import { PadreConectado } from './customComponents/PadreConectado';
+//import { Boton } from './customComponents/Boton'; 
+//import { BotonConTitulo } from './customComponents/BotonConTitulo';
+//import { Titulo } from './customComponents/Titulo';
+//import { Formulario } from './customComponents/Formulario';
+//import { BotonConProp } from './customComponents/BotonConProp';
+//import { BotonConProp2 } from './customComponents/BotonConProp2';
+//import { Formulario2 } from './customComponents/Formulario2';
+//import { Inputs } from './customComponents/Inputs';
+//import { TiendaProductos } from './customComponents/TiendaProductos';
+//import { BotonConContador } from './customComponents/BotonConContador';
+//import { ImagenCambiante } from './customComponents/ImagenCambiante';
+//import { PadreConectado } from './customComponents/PadreConectado';
 //import { App } from './customComponents/proyecto1PokeApi/App';
 //import { App } from './customComponents/proyecto2PokeApi/App';
-import { App } from './customComponents/proyecto3PokeApi/App';
+//import { App } from './customComponents/proyecto3PokeApi/App';
+//import { NavBar } from './customComponents/NavBar';
+import { ContenedorTareas } from './customComponents/proyectoTareas/ContenedorTareas';
 
 var click1 = () =>{
   console.log("fn1")
@@ -107,11 +109,18 @@ root.render(
     <App></App>
 
     */
+    /*---------------------------------------------- */
+    /*CLASE5*/
+    /*---------------------------------------------- */
+    /*
+
+    <NavBar></NavBar>
+
+    */
     }
     
     
-    <App></App>
-    
+    <ContenedorTareas></ContenedorTareas>
 
 
   </React.StrictMode>
