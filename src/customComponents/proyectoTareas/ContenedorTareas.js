@@ -46,14 +46,13 @@ export const ContenedorTareas = () => {
         setTareas(nuevasTareas);
     }
 
-    return  <div>
-                <h1>Lista de tareas</h1>
+    return  <div className="container mt-5">
+                <h1 className="text-center mb-4">Lista de tareas</h1>
                 <InputTareas addTarea={addTarea}/>
                 <OrdenarTareas fnOrdenar={ordenarTareas}></OrdenarTareas>
                 <ListaTareas 
                     tareas={tareas} 
                     deleteTarea={deleteTarea} 
                     variarCompletada={variarCompletada} />
-                
             </div>
 }

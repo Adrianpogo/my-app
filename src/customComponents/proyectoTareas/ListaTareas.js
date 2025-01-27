@@ -2,8 +2,7 @@ import React from "react";
 import { Tarea } from "./Tarea";
 
 export const ListaTareas = ({tareas, deleteTarea, variarCompletada}) => {
-    
-    return  <div>
+    return  <div className="list-group">
                 {
                     tareas.map((tarea, indice)=>(
                         <Tarea

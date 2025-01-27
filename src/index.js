@@ -18,6 +18,7 @@ import './index.css';
 //import { App } from './customComponents/proyecto3PokeApi/App';
 //import { NavBar } from './customComponents/NavBar';
 //import { ContenedorTareas } from './customComponents/proyectoTareas/ContenedorTareas';
+import { AppUsuarios } from './customComponents/proyectoUsuarios/AppUsuarios';
 
 var click1 = () =>{
   console.log("fn1")
@@ -126,7 +127,7 @@ root.render(
     */
     }
     
-    
+    <AppUsuarios></AppUsuarios>
     
 
 
