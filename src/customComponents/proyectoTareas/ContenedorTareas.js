@@ -10,7 +10,7 @@ export const ContenedorTareas = () => {
     //Funcion para agregar una tarea
     function addTarea(tarea) {
         var nuevaTarea = {
-            tarea: tarea,
+            tarea,
             completada: false
         }
         setTareas([...tareas, nuevaTarea]);
@@ -19,14 +19,10 @@ export const ContenedorTareas = () => {
     //Funcion para eliminar una tarea
     function deleteTarea(index) {
         var nuevasTareas = [...tareas];
-        nuevasTareas.slice(index, 1);
+        nuevasTareas.splice(index, 1);
         setTareas(nuevasTareas);
     }  
 
-    //Funcion para ordenar las tareas
-    function ordenarTareas() {
-        setTareas(tareas.sort((a, b) => a - b));
-    }
 
     //Función para marcar tarea como completada o incompleta
     function variarCompletada (index){
@@ -35,10 +31,29 @@ export const ContenedorTareas = () => {
         setTareas(nuevasTareas);
     }
 
+    //Función para ordenar las tareas alfabeticamente
+    function ordenarTareas() {
+        var nuevasTareas = [...tareas];
+        nuevasTareas.sort((a, b) => {
+            if(a.tarea < b.tarea){
+                return -1;
+            }
+            if(a.tarea > b.tarea){
+                return 1;
+            }
+            return 0;
+        });
+        setTareas(nuevasTareas);
+    }
+
     return  <div>
                 <h1>Lista de tareas</h1>
-                <InputTareas addTarea={addTarea} />
-                <OrdenarTareas ordenarTareas={ordenarTareas} />
-                <ListaTareas tareas={tareas} deleteTarea={deleteTarea} variarCompletada={variarCompletada} />
+                <InputTareas addTarea={addTarea}/>
+                <OrdenarTareas fnOrdenar={ordenarTareas}></OrdenarTareas>
+                <ListaTareas 
+                    tareas={tareas} 
+                    deleteTarea={deleteTarea} 
+                    variarCompletada={variarCompletada} />
+                
             </div>
 }

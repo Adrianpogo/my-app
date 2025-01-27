@@ -17,7 +17,7 @@ import './index.css';
 //import { App } from './customComponents/proyecto2PokeApi/App';
 //import { App } from './customComponents/proyecto3PokeApi/App';
 //import { NavBar } from './customComponents/NavBar';
-import { ContenedorTareas } from './customComponents/proyectoTareas/ContenedorTareas';
+//import { ContenedorTareas } from './customComponents/proyectoTareas/ContenedorTareas';
 
 var click1 = () =>{
   console.log("fn1")
@@ -115,12 +115,19 @@ root.render(
     /*
 
     <NavBar></NavBar>
+    <ContenedorTareas></ContenedorTareas>
+
+    */
+    /*---------------------------------------------- */
+    /*CLASE6*/
+    /*---------------------------------------------- */
+    /*
 
     */
     }
     
     
-    <ContenedorTareas></ContenedorTareas>
+    
 
 
   </React.StrictMode>

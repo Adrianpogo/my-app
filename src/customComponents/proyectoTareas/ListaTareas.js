@@ -1,5 +1,20 @@
 import React from "react";
+import { Tarea } from "./Tarea";
 
-export const ListaTareas = () => {
+export const ListaTareas = ({tareas, deleteTarea, variarCompletada}) => {
     
+    return  <div>
+                {
+                    tareas.map((tarea, indice)=>(
+                        <Tarea
+                            key ={indice}
+                            indice = {indice}
+                            tarea = {tarea}
+                            deleteTarea = {deleteTarea}
+                            variarCompletada= {variarCompletada}
+                        >
+                        </Tarea>
+                    ))
+                }
+            </div>
 }
