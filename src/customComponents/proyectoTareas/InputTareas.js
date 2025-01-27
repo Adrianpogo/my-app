@@ -11,14 +11,12 @@ export const InputTareas = ({addTarea}) => {
             addTarea(tarea);
             e.target.querySelector("textarea").value = "";
         }
-
-        
     }
 
-    return  <form onSubmit={onSubmit}>
-                <textarea>
-
-                </textarea>
-                <button type="submit">Añadir tarea</button>
+    return  <form onSubmit={onSubmit} className="mb-3">
+                <div className="mb-3">
+                    <textarea className="form-control" rows="3"></textarea>
+                </div>
+                <button type="submit" className="btn btn-primary">Añadir tarea</button>
             </form>
 }
