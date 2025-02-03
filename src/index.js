@@ -18,7 +18,11 @@ import './index.css';
 //import { App } from './customComponents/proyecto3PokeApi/App';
 //import { NavBar } from './customComponents/NavBar';
 //import { ContenedorTareas } from './customComponents/proyectoTareas/ContenedorTareas';
-import { AppUsuarios } from './customComponents/proyectoUsuarios/AppUsuarios';
+//import { AppUsuarios } from './customComponents/proyectoUsuarios/AppUsuarios';
+import { Reloj } from './customComponents/useState/Reloj';
+import { CambiarColor } from './customComponents/useState/CambioColor';
+import { Juego } from './customComponents/tresEnRaya/Juego';
+import "./customCSS/tresEnRaya.css"
 
 var click1 = () =>{
   console.log("fn1")
@@ -124,10 +128,22 @@ root.render(
     /*---------------------------------------------- */
     /*
 
+    <AppUsuarios></AppUsuarios>
+
+    */
+    /*---------------------------------------------- */
+    /*CLASE7*/
+    /*---------------------------------------------- */
+    /*
+
+    <Reloj></Reloj>
+    <CambiarColor></CambiarColor>
+
     */
     }
     
-    <AppUsuarios></AppUsuarios>
+    <Juego></Juego>
+   
     
 
 
