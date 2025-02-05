@@ -1,7 +1,7 @@
 import React from "react";
 import frutaImg from "./img/banana.jpg";
 
-export const Fruta = ({comida}) =>{
+export const Fruta = ({ comida }) => {
 
     return <>
         <div className="celda">

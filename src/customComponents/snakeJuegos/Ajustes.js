@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Ajustes = ({setTamañoTablero, iniciarJuego}) =>{
+export const Ajustes = ({ setTamañoTablero, iniciarJuego }) => {
 
     return <>
         <div className="container text-center mt-5">

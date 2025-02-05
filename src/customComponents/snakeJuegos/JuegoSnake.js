@@ -13,9 +13,9 @@ export const JuegoSnake = () => {
     var [direccion, setDireccion] = useState(null);
     var [tablero, setTablero] = useState(
         Array.from({ length: 15 }, () => Array(15).fill(""))
-      );
+    );
 
-    
+
 
     return <>
         <div className="contenedor-juego">
