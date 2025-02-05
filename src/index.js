@@ -19,10 +19,11 @@ import './index.css';
 //import { NavBar } from './customComponents/NavBar';
 //import { ContenedorTareas } from './customComponents/proyectoTareas/ContenedorTareas';
 //import { AppUsuarios } from './customComponents/proyectoUsuarios/AppUsuarios';
-import { Reloj } from './customComponents/useState/Reloj';
-import { CambiarColor } from './customComponents/useState/CambioColor';
-import { Juego } from './customComponents/tresEnRaya/Juego';
-import "./customCSS/tresEnRaya.css"
+//import { Reloj } from './customComponents/useState/Reloj';
+//import { CambiarColor } from './customComponents/useState/CambioColor';
+//import { Juego } from './customComponents/tresEnRaya/Juego';
+//import "./customCSS/tresEnRaya.css"
+import { JuegoSnake } from './customComponents/snakeJuegos/JuegoSnake';
 
 var click1 = () =>{
   console.log("fn1")
@@ -140,9 +141,17 @@ root.render(
     <CambiarColor></CambiarColor>
 
     */
-    }
+    /*---------------------------------------------- */
+    /*CLASE8*/
+    /*---------------------------------------------- */
+    /*
     
     <Juego></Juego>
+
+    */
+    }
+    
+    <JuegoSnake></JuegoSnake>
    
     
 
