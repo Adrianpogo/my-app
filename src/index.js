@@ -23,7 +23,8 @@ import './index.css';
 //import { CambiarColor } from './customComponents/useState/CambioColor';
 //import { Juego } from './customComponents/tresEnRaya/Juego';
 //import "./customCSS/tresEnRaya.css"
-import { JuegoSnake } from './customComponents/snakeJuegos/JuegoSnake';
+//import { JuegoSnake } from './customComponents/snakeJuegos/JuegoSnake';
+import {AppAea2} from './customComponents/AEA2/AppAea2'
 
 var click1 = () =>{
   console.log("fn1")
@@ -43,6 +44,7 @@ inputs.push(
   { required: false, type: 'text', label: "Dirección" },
   { required: false, type: 'date', label: "fecha" },
 )
+
 
 var productos = []; 
 productos.push(   
@@ -147,11 +149,13 @@ root.render(
     /*
     
     <Juego></Juego>
+    <JuegoSnake></JuegoSnake>
 
     */
     }
     
-    <JuegoSnake></JuegoSnake>
+    
+    <AppAea2></AppAea2>
    
     
 
